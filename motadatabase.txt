@@ -1,0 +1,15 @@
+Tạo các bảng sau:
+
+user: id,name,password,email,phone,
+
+product: id,name,price,discount,image,detail,product_type,quantity,product_status;
+
+cart:id, product_id, user_id;
+
+order: id,product_id, user_id,phone,address,order_comment,order_status,money,payment,payment_status;
+
+comment:id,product_id,user_id,comment,image;
+
+sell:id,user_id,name,price,discount,image,detail,product_type,quantity,product_status;
+
+admin:id,name,email,password
