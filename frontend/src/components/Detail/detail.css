@@ -1,0 +1,39 @@
+.image_detail{
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(233, 227, 233);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.image_detail img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.conten_detail{
+    background-color: rgb(241, 247, 220);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.conten_detail h4{
+    
+    padding: 10px;
+    background-color: rgb(228, 241, 170);
+    color: rgb(49, 47, 47);
+    border-radius: 10px;
+}
+.conten_detail h2{
+    color: rgb(134, 3, 3);
+}
+.conhang{
+    color: rgb(4, 131, 21);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px 1px;
+}
+.comment{
+    font-weight: bold;
+    font-size: 20px;
+}

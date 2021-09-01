@@ -1,0 +1,166 @@
+
+.containe{
+    margin: 10px;
+}
+
+
+.slide img{
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    height: auto;
+}
+.containe span{
+    display: none;
+}
+.carousel-caption {
+    margin-bottom: 20px;
+}
+.carousel-caption h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 43, 35);
+    text-shadow: 1px 1px 1px;
+
+}
+.carousel-caption p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a3d35;
+    text-shadow: 1px 1px 1px;
+}
+.right {
+    border-radius: 5px;
+    background-color: rgb(245 245 232);
+    text-align: center;
+}
+.right img{
+    width: 75%;
+    height: auto;
+    margin:5px;
+
+}
+.right img:hover{
+    border-radius: 10px;
+    border: 2px solid orange;
+}
+
+
+@media screen and (max-width: 414px) {
+    .right {
+        display: flex;
+        
+    }
+    .carousel-caption {
+        /* margin-top: 50px; */
+        margin-bottom: -30px;
+    }
+    .carousel-caption h3 {
+        font-size: 17px;
+        
+        
+    
+    }
+    .carousel-caption p{
+        font-size: 15px;
+       
+    }
+    .right img{
+        width: 45%;
+        height: auto;
+        margin:5px;
+    
+    }
+  }
+
+
+
+
+
+
+
+.noibat{
+    background-color: rgb(221, 245, 194);
+}
+
+.price_old{
+    text-decoration-line:line-through;
+}
+
+.title{
+    background-color: rgb(243, 195, 107);
+    text-align: center;
+    border-radius: 20%;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card {
+    height: 100%;
+}
+.card-img-top{
+    height: 100%;
+}
+.card-group{
+    padding: 10px;
+}
+.item{
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: #d5e0ec;
+}
+.item:hover{
+   
+}
+/* bán chạy */
+.mota_banchay{
+    text-align: center;
+    background-color: rgb(252, 251, 185);
+}
+.banchay{
+    width: 101%;
+    margin-left: 0.5px;
+}
+.banchay .owl-carousel .owl-item img:hover {
+    border: 2px solid rgb(36, 34, 34);
+    
+}
+
+.title_banchay{
+    background-color: rgb(255, 234, 196);
+    width: auto;
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px;
+}
+/* danhmuc */
+.danhmuc{
+    width: 100%;
+}
+
+
+/* tin tức */
+.tintuc{
+    padding: 20px;
+    font-weight: bold;
+}
+.tintuc img:hover{
+    border-radius: 10px;
+    transition: 2s;
+    border: 2px solid tomato;
+}
+/* dichvu */
+.dichvu{
+    background-color: rgb(233, 221, 233);
+    text-align: center;
+    padding: 20px;
+}
+.dichvu .item{
+    background-color: rgb(170, 218, 250);
+    height: 100px;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 23px;
+    text-shadow: 1px 1px 1px;
+    
+}

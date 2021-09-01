@@ -1,0 +1,16 @@
+.dangnhap {
+    width: 600px;
+    height: 480px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-color: #eda997;
+    border-radius: 10px;
+    outline: none;
+}
+.dangnhap h2 {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 50px;
+    position: absolute;
+}

@@ -1,0 +1,12 @@
+.run_text .marquee{
+    font-size: 15px;
+    color: #e2552b;
+}
+.run_text marquee i{
+    font-weight: bold;
+}
+
+
+/* .run_text{
+    position: fixed;
+} */

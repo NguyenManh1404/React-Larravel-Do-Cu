@@ -1,0 +1,8 @@
+.user{
+    display: -webkit-box;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.user span{
+    margin-top: 10px;
+}

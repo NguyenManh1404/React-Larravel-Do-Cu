@@ -1,0 +1,87 @@
+.noibat{
+    background-color: rgb(207, 211, 186);
+}
+
+.price_old{
+    text-decoration-line:line-through;
+}
+
+.title{
+    background-color: rgb(243, 195, 107);
+    text-align: center;
+    border-radius: 20%;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card {
+    height: 100%;
+}
+.card-img-top{
+    height: 100%;
+}
+.card-group{
+    padding: 10px;
+}
+.item{
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: #9fabb8;
+}
+.item:hover{
+    margin: 15px 0px;
+    
+}
+/* bán chạy */
+.mota_banchay{
+    text-align: center;
+    background-color: rgb(252, 251, 185);
+}
+.banchay{
+    width: 101%;
+    margin-left: 0.5px;
+}
+.banchay .owl-carousel .owl-item img:hover {
+    border: 2px solid rgb(36, 34, 34);
+    
+}
+
+.title_banchay{
+    background-color: rgb(255, 234, 196);
+    width: auto;
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px;
+}
+/* danhmuc */
+.danhmuc{
+    width: 100%;
+}
+
+
+/* tin tức */
+.tintuc{
+    padding: 20px;
+    font-weight: bold;
+}
+.tintuc img:hover{
+    border-radius: 10px;
+    transition: 2s;
+    border: 2px solid tomato;
+}
+/* dichvu */
+.dichvu{
+    background-color: rgb(233, 221, 233);
+    text-align: center;
+    padding: 20px;
+}
+.dichvu .item{
+    background-color: rgb(170, 218, 250);
+    height: 100px;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 23px;
+    text-shadow: 1px 1px 1px;
+    
+}

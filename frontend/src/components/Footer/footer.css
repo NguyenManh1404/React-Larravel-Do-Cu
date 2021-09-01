@@ -1,0 +1,31 @@
+.footer{
+    background-color: #19583e;
+    font-weight: bold;
+    text-align: center; 
+}
+.giatri_conten{
+ color: rgb(236, 175, 5);
+ font-size: 15px;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(255, 123, 0);
+    text-shadow: 1px 1px 1px;
+    
+}
+.logo p{
+    margin-top: 30%;
+}
+.titles{
+    font-size: 30px;
+    color: tomato;
+    text-shadow: 1px 1px 1px;
+}
+.link a{
+    padding: 6px;
+   
+}
+.link a i{
+   font-size: 20px;
+    border-radius: 5px;
+}
